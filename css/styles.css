@@ -1,0 +1,302 @@
+/** 
+PALETTE COLORS:
+- - 
+Yellow: #ffd457
+Orange: #f89828
+Red: #e0134f
+Blue: #67c7c6
+Green: #b3d88c
+Pink: #fac0c0
+Light Blue: #bae0cd
+Neutral: #f1ecd8
+**/
+
+/** pixel declarations go: TOP RIGHT BOTTOM LEFT **/
+
+/** GENERAL STYLES ***********************************/
+
+html {
+	background: url(/images/janphi_bg.jpg) #f1ecd8 no-repeat top center;
+	height: 100%;
+	}
+	
+
+	
+#body { 
+	background: url(/images/brick_bg.png) repeat-y top left;
+	font-family: "Verdana",Helvetica,sans-serif;
+	color: #777;	
+	height: 100%;
+	text-align: left;
+	width: 800px;
+	line-height: 15px;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	}
+
+/** FONTFACE STYLES ***********************************/
+	
+/**@font-face {
+	font-family: "UniveUltCon";
+	src: url(http://www.whaleroot.com/jan-phi.com/fonts/UniveUltCon.ttf) format("truetype");
+	}
+@font-face {
+	font-family: "UniveCon";
+	src: url(http://www.whaleroot.com/jan-phi.com/fonts/UniveCon.ttf) format("truetype");
+	}
+@font-face {
+	font-family: "UniveConBol";
+	src: url(http://www.whaleroot.com/jan-phi.com/fonts/UniveConBol.ttf) format("truetype");
+	}
+@font-face {
+	font-family: "UniveExtBlaExt";
+	src: url(http://www.whaleroot.com/jan-phi.com/fonts/UniveExtBlaExt.ttf) format("truetype");
+	}**/
+	
+/** ROLLOVER STYLES ***********************************/
+
+a.registrybutton {
+	display: inline-block;
+	width: 125px;
+	height: 75px;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	background: url("/images/registry.png");
+	}
+
+a.registrybutton:hover {
+	background-position: -125px 0;
+	}
+
+a.contactbutton {
+	display: inline-block;
+	width: 125px;
+	height: 75px;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	background: url("/images/contact.png");
+	}
+
+a.contactbutton:hover {
+	background-position: -125px 0;
+	}
+	
+a.navstories {
+	display: inline-block;
+	width: 136px;
+	height: 90px;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	background: url("/images/nav_stories.png");
+	}
+
+a.navstories:hover {
+	background-position: -136px 0;
+	}
+
+a.navcelebration {
+	display: inline-block;
+	width: 135px;
+	height: 90px;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	background: url("/images/nav_celebration.png");
+	}
+
+a.navcelebration:hover {
+	background-position: -135px 0;
+	}
+
+a.navlocal {
+	display: inline-block;
+	width: 54px;
+	height: 90px;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	background: url("/images/nav_local.png");
+	}
+
+a.navlocal:hover {
+	background-position: -54px 0;
+	}
+
+a.navrest {
+	display: inline-block;
+	width: 208px;
+	height: 90px;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	background: url("/images/nav_rest.png");
+	}
+
+a.navrest:hover {
+	background-position: -208px 0;
+	}
+	
+a.navpics {
+	display: inline-block;
+	width: 67px;
+	height: 90px;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	background: url("/images/nav_pics.png");
+	}
+
+a.navpics:hover {
+	background-position: -67px 0;
+	}	
+	
+.displace {
+	position: absolute;
+	left: -5000px;
+	}
+
+/** HEADER STYLES ***********************************/
+
+#header {
+	margin: 0px 100px 20px 100px;
+	padding: 15px 0 0 0;
+	}
+
+#header a {
+	outline: none;
+	margin: 0;
+	padding: 0;
+	}
+
+#header img {
+	margin: 0;
+	padding: 0;
+	}
+
+/** NAVIGATION STYLES ***********************************/
+
+.nav {
+	margin: 0px 100px 40px 100px;
+	padding: 30px 0;
+	border-bottom:1px solid #f1ecd8;
+	border-top:1px solid #f1ecd8;
+	}
+
+/** CONTENT STYLES ***********************************/
+	
+#content {
+	font-size: 11px;
+	margin-right: 100px;
+	margin-left: 100px;
+	min-height: 100%;
+	}	
+	
+#content p {
+	margin-bottom: 3px;
+	}	
+
+#content .p-special {
+	margin-top: 17px;
+	}	
+	
+#content .quicklook {
+	font-size: 13px;
+	color: #000;
+	}	
+	
+#content a {
+	padding: 2px;
+	background: #67c7c6;
+	color: #fff;
+	text-decoration: none;
+	}	
+	
+#content a:hover {
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+	}
+	
+#content .title1 {
+	font-family: "Verdana",Helvetica,sans-serif;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0;
+	padding: 2px 0;
+	border-top:1px solid #b3d88c;
+	border-bottom:1px solid #b3d88c;
+	}
+	
+#content .title2 {
+	font-family: "Verdana",Helvetica,sans-serif;
+	font-size: 16px;
+	color: #f89828;
+	margin: 0;
+	padding: 0 !important;
+	}
+	
+#content .title2 a {
+	margin: 0;
+	padding: 2px;
+	background: #67c7c6;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	}
+	
+#content .title2 a:hover {
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+	}
+
+#content .title3 {
+	font-family: "Verdana",Helvetica,sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #e0134f;	
+	}
+	
+/** FOOTER STYLES ***********************************/
+
+.footer {
+	text-align: center;
+	color: #000;
+	font-family: "Verdana",Helvetica,sans-serif;
+	font-size: 11px;
+	line-height: 13px;
+	margin: 30px 100px 0px 100px;
+	padding: 30px 0 30px 0;
+	border-top:1px solid #f1ecd8;
+	}
+
+.footer a {
+	color: #67c7c6;
+	text-decoration: none;
+	outline: none;
+	text-transform: uppercase;
+	padding: 0 5px;
+	}
+	
+.footer a:hover {
+	color: #000;	
+	outline: none;
+	}
+	
+/** HACK STYLES ***********************************/
+
+/**
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+	}
+**/

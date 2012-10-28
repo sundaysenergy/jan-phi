@@ -1,0 +1,119 @@
+/** 
+PALETTE COLORS:
+- - 
+Yellow: #ffd457
+Orange: #f89828
+Red: #e0134f
+Blue: #67c7c6
+Green: #b3d88c
+Pink: #fac0c0
+Light Blue: #bae0cd
+Neutral: #f1ecd8
+**/
+
+/** pixel declarations go: TOP RIGHT BOTTOM LEFT **/
+
+/** GENERAL STYLES ***********************************/
+
+html {
+	background: #fff;
+	height: 100%;
+	}
+	
+#body { 
+	background: #fff;
+	height: 100%;
+	text-align: center;
+	width: 650px;
+	line-height: 15px;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	}
+	
+#content {
+	margin: 145px 0 0 0;
+	min-height: 100%;
+	}	
+
+	
+/** ROLLOVER STYLES ***********************************/
+	
+a.homepics {
+	display: inline-block;
+	float: left;
+	width: 180px;
+	height: 393px;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	background: url("/images/home_pics.jpg");
+	}
+
+a.homepics:hover {
+	background-position: -180px 0;
+	}	
+	
+a.homestories {
+	display: inline-block;
+	float: left;
+	width: 470px;
+	height: 90px;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	background: url("/images/home_stories.png");
+	}
+
+a.homestories:hover {
+	background-position: -470px 0;
+	}
+
+a.homecelebration {
+	display: inline-block;
+	float: left;
+	width: 470px;
+	height: 95px;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	background: url("/images/home_celebration.png");
+	}
+
+a.homecelebration:hover {
+	background-position: -470px 0;
+	}
+	
+a.homerest {
+	display: inline-block;
+	float: left;
+	width: 470px;
+	height: 45px;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	background: url("/images/home_rest.png");
+	}
+
+a.homerest:hover {
+	background-position: -470px 0;
+	}
+	
+a.homelocal {
+	display: inline-block;
+	float: left;
+	width: 470px;
+	height: 163px;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	background: url("/images/home_local.png");
+	}
+
+a.homelocal:hover {
+	background-position: -470px 0;
+	}
+	
+.displace {
+	position: absolute;
+	left: -5000px;
+	}
